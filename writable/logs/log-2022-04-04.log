@@ -1,0 +1,312 @@
+CRITICAL - 2022-04-04 13:22:14 --> Invalid file: prelinestyle_view.php
+#0 C:\xampp\htdocs\cube-health\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prelinestyle_vi...')
+#1 C:\xampp\htdocs\cube-health\system\Common.php(1089): CodeIgniter\View\View->render('prelinestyle_vi...', Array, true)
+#2 C:\xampp\htdocs\cube-health\app\Views\header.php(44): view('prelinestyle_vi...')
+#3 C:\xampp\htdocs\cube-health\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cube-health\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\cube-health\system\Common.php(1089): CodeIgniter\View\View->render('header.php', Array, true)
+#6 C:\xampp\htdocs\cube-health\app\Views\login_view.php(3): view('header.php')
+#7 C:\xampp\htdocs\cube-health\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\cube-health\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 C:\xampp\htdocs\cube-health\system\Common.php(1089): CodeIgniter\View\View->render('login_view', Array, true)
+#10 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(11): view('login_view')
+#11 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#12 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#13 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-04-04 13:35:06 --> Invalid file: cms/login_view.php
+#0 C:\xampp\htdocs\cube-health\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cms/login_view....')
+#1 C:\xampp\htdocs\cube-health\system\Common.php(1089): CodeIgniter\View\View->render('cms/login_view', Array, true)
+#2 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(11): view('cms/login_view')
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-04 13:37:17 --> Invalid file: Views/cms/login_view.php
+#0 C:\xampp\htdocs\cube-health\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/cms/login...')
+#1 C:\xampp\htdocs\cube-health\system\Common.php(1089): CodeIgniter\View\View->render('Views/cms/login...', Array, true)
+#2 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(11): view('Views/cms/login...')
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-04 13:40:43 --> Invalid file: cube-health/Views/cms/login_view.php
+#0 C:\xampp\htdocs\cube-health\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cube-health/Vie...')
+#1 C:\xampp\htdocs\cube-health\system\Common.php(1089): CodeIgniter\View\View->render('cube-health/Vie...', Array, true)
+#2 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(11): view('cube-health/Vie...')
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-04 13:40:56 --> Invalid file: /cms/login_view.php
+#0 C:\xampp\htdocs\cube-health\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/cms/login_view...')
+#1 C:\xampp\htdocs\cube-health\system\Common.php(1089): CodeIgniter\View\View->render('/cms/login_view', Array, true)
+#2 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(11): view('/cms/login_view')
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-04 13:41:05 --> Invalid file: cms/login_view.php
+#0 C:\xampp\htdocs\cube-health\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cms/login_view....')
+#1 C:\xampp\htdocs\cube-health\system\Common.php(1089): CodeIgniter\View\View->render('cms/login_view', Array, true)
+#2 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(11): view('cms/login_view')
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-04 13:43:05 --> Invalid file: login.php
+#0 C:\xampp\htdocs\cube-health\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\cube-health\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(11): view('login')
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-04 13:43:43 --> Use of undefined constant URL_SEPARATOR - assumed 'URL_SEPARATOR' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\cube-health\app\Views\cms\head.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\cube-health\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cube-health\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cube-health\system\Common.php(1089): CodeIgniter\View\View->render('cms/head.php', Array, true)
+#4 C:\xampp\htdocs\cube-health\app\Views\cms\login.php(1): view('cms/head.php')
+#5 C:\xampp\htdocs\cube-health\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cube-health\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\cube-health\system\Common.php(1089): CodeIgniter\View\View->render('cms/login', Array, true)
+#8 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(11): view('cms/login')
+#9 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#10 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-04 13:46:37 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\cube-health\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\cube-health\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cube-health\system\Common.php(1089): CodeIgniter\View\View->render('cms/login', Array, true)
+#3 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(11): view('cms/login')
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-04 15:41:05 --> Call to a member function update() on array
+#0 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->sendotp()
+#1 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-04 15:44:14 --> Call to a member function update() on array
+#0 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->sendotp()
+#1 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-04 15:45:05 --> Allowed fields must be specified for model: App\Models\User
+#0 C:\xampp\htdocs\cube-health\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User')
+#1 C:\xampp\htdocs\cube-health\system\BaseModel.php(841): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\cube-health\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#3 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(56): CodeIgniter\Model->update()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->sendotp()
+#5 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-04 15:45:35 --> Allowed fields must be specified for model: App\Models\User
+#0 C:\xampp\htdocs\cube-health\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User')
+#1 C:\xampp\htdocs\cube-health\system\BaseModel.php(841): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\cube-health\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#3 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(56): CodeIgniter\Model->update()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->sendotp()
+#5 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-04 15:50:08 --> Allowed fields must be specified for model: App\Models\User
+#0 C:\xampp\htdocs\cube-health\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User')
+#1 C:\xampp\htdocs\cube-health\system\BaseModel.php(841): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\cube-health\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#3 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(56): CodeIgniter\Model->update()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->sendotp()
+#5 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-04 15:50:10 --> Allowed fields must be specified for model: App\Models\User
+#0 C:\xampp\htdocs\cube-health\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User')
+#1 C:\xampp\htdocs\cube-health\system\BaseModel.php(841): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\cube-health\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#3 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(56): CodeIgniter\Model->update()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->sendotp()
+#5 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-04 15:58:00 --> Invalid file: otp_view.php
+#0 C:\xampp\htdocs\cube-health\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('otp_view.php')
+#1 C:\xampp\htdocs\cube-health\system\Common.php(1089): CodeIgniter\View\View->render('otp_view.php', Array, true)
+#2 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(60): view('otp_view.php')
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->sendotp()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-04 16:10:21 --> Call to a member function last_query() on bool
+#0 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->sendotp()
+#1 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-04 16:10:55 --> Call to undefined method App\Models\User::last_query
+#0 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(57): CodeIgniter\Model->__call('last_query', Array)
+#1 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->sendotp()
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 16:14:09 --> Undefined property: App\Controllers\UserController::$db
+#0 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->sendotp()
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 16:15:10 --> Trying to get property 'lastQuery' of non-object
+#0 C:\xampp\htdocs\cube-health\app\Models\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(23): App\Models\User->__construct()
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(809): App\Controllers\UserController->__construct()
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 16:15:15 --> Trying to get property 'lastQuery' of non-object
+#0 C:\xampp\htdocs\cube-health\app\Models\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(23): App\Models\User->__construct()
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(809): App\Controllers\UserController->__construct()
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 16:15:56 --> Trying to get property 'last_query' of non-object
+#0 C:\xampp\htdocs\cube-health\app\Models\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(23): App\Models\User->__construct()
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(809): App\Controllers\UserController->__construct()
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 16:17:12 --> Trying to get property 'last_query' of non-object
+#0 C:\xampp\htdocs\cube-health\app\Models\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(23): App\Models\User->__construct()
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(809): App\Controllers\UserController->__construct()
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 16:20:14 --> Trying to get property 'last_query' of non-object
+#0 C:\xampp\htdocs\cube-health\app\Models\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(23): App\Models\User->__construct()
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(809): App\Controllers\UserController->__construct()
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 16:20:41 --> Trying to get property 'last_query' of non-object
+#0 C:\xampp\htdocs\cube-health\app\Models\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(23): App\Models\User->__construct()
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(809): App\Controllers\UserController->__construct()
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 16:21:28 --> Trying to get property 'lastQuery' of non-object
+#0 C:\xampp\htdocs\cube-health\app\Models\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(23): App\Models\User->__construct()
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(809): App\Controllers\UserController->__construct()
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-04 16:22:08 --> Call to a member function last_query() on null
+#0 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(23): App\Models\User->__construct()
+#1 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(809): App\Controllers\UserController->__construct()
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 16:22:41 --> Call to a member function _compile_select() on null
+#0 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(23): App\Models\User->__construct()
+#1 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(809): App\Controllers\UserController->__construct()
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 16:23:03 --> Call to a member function _compile_select() on null
+#0 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(23): App\Models\User->__construct()
+#1 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(809): App\Controllers\UserController->__construct()
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 16:24:21 --> Call to a member function _compile_select() on null
+#0 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(23): App\Models\User->__construct()
+#1 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(809): App\Controllers\UserController->__construct()
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 16:24:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::_compile_select()
+#0 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(57): App\Models\User->reunquery()
+#1 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->sendotp()
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 16:25:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::lastQuery()
+#0 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(57): App\Models\User->reunquery()
+#1 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->sendotp()
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 16:26:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::last_query()
+#0 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(57): App\Models\User->reunquery()
+#1 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->sendotp()
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 16:37:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->sendotp()
+#2 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 17:16:02 --> in:verify_otp is not a valid rule.
+#0 C:\xampp\htdocs\cube-health\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('in:verify_otp')
+#1 C:\xampp\htdocs\cube-health\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('action', 'action', 'verify_otp', Array, Array)
+#2 C:\xampp\htdocs\cube-health\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(71): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->verifyotp()
+#5 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-04 23:32:20 --> Invalid file: head.php
+#0 C:\xampp\htdocs\cube-health\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('head.php')
+#1 C:\xampp\htdocs\cube-health\system\Common.php(1089): CodeIgniter\View\View->render('head.php', Array, true)
+#2 C:\xampp\htdocs\cube-health\app\Views\cms\home_view.php(1): view('head.php')
+#3 C:\xampp\htdocs\cube-health\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cube-health\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\cube-health\system\Common.php(1089): CodeIgniter\View\View->render('cms/home_view', Array, true)
+#6 C:\xampp\htdocs\cube-health\app\Controllers\UserController.php(106): view('cms/home_view')
+#7 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(832): App\Controllers\UserController->home()
+#8 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\cube-health\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cube-health\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
